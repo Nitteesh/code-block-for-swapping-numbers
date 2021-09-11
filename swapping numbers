@@ -1,0 +1,19 @@
+/*code for swapping numbers */
+#include <stdio.h>
+
+int a,b;
+int main()
+{
+    printf("Enter the Number for a: ");
+    scanf("%d", &a);
+    printf("Enter the Number for b: ");
+    scanf("%d",&b);
+    printf("the value before swaping of a =%d\n",a);
+    printf("the value before swaping of b =%d\n\n\n",b);
+    a=a+b;      
+    b=a-b;      
+    a=a-b;
+    printf("the value after swapping of a =%d\n",a);
+    printf("the value after swapping of b =%d",b);
+    return 0;
+}
